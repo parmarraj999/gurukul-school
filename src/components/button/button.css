@@ -1,0 +1,28 @@
+.addmission-btn{
+    height: auto;
+    border-radius: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: .1rem;
+}
+.addmission-btn h3{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.button-icon{
+    width: 65px;
+    height: 50px;
+    background: #0075FF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+.button-icon .arrow-icon{
+    font-size: 24px;
+    transform: rotate(-45deg);
+    color: white;
+}
