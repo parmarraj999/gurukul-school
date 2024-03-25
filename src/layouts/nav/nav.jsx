@@ -16,7 +16,7 @@ function Nav() {
         </div>
         <div className="menu">
             <ul>
-                <NavLink to='/home' className="navlink ">Home</NavLink>
+                <NavLink to='/' className="navlink ">Home</NavLink>
                 <NavLink to='/about' className="navlink">About</NavLink>
                 <NavLink to='/gallary' className="navlink ">Gallary</NavLink>
                 <NavLink to='/contact' className="navlink">Contact </NavLink>
