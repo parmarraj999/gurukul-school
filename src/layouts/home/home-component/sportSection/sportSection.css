@@ -1,0 +1,72 @@
+.sport-section-container{
+    width: 100%;
+    height: 90vh;
+    background: black;
+    padding: 2rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: hidden;
+}
+.sport-section-header{
+    width:80%;
+    margin: 0 auto;
+}
+.sport-section-header h2{
+    font-size: 5vw;
+    color: white;
+}
+.sport-section-header h3{
+    font-size: 4vw;
+    color: rgba(255,255,255,0.5);
+}
+
+.sport-card-container{
+    width: 100%;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    padding: 0 2rem;
+    overflow: scroll;
+}
+.sport-card-container::-webkit-scrollbar{
+    display: none;
+}
+.sport-card-container .sport-card{
+    /* min-width:350px; */
+    width: 100%;
+    height: 400px;
+    background: white;
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    align-items: center;
+    justify-content: center;
+}
+.sport-card h2{
+    font-size: 32px;
+}
+.sport-card img{
+    width: 100%;
+}
+@media screen and (max-width:765px) {
+    .sport-section-container{
+        height: 80vh;
+    }
+    .sport-section-header{
+        width: 89%;
+    }
+    .sport-section-header h2{
+        font-size: 50px;
+    }
+    .sport-section-header h3{
+        font-size: 40px;
+    }
+    .sport-card-container{
+        padding: 0 1rem;
+    }
+    .sport-card-container .sport-card{
+        min-width: 330px;
+    }
+}

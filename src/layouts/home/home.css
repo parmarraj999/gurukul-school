@@ -1,9 +1,16 @@
 .home-container{
-    width: 99%;
+    width: 100%;
     margin: 0 auto;
     margin-top: .3rem;
+    box-sizing: border-box;
 }
 .home-wrapper{
     width: 85%;
     margin: 0 auto;
+    box-sizing: border-box;
+}
+@media screen and (max-width:765px) {
+    .home-wrapper{
+        width: 90%;
+    }
 }

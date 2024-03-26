@@ -22,7 +22,7 @@ function Nav() {
                 <NavLink to='/contact' className="navlink">Contact </NavLink>
             </ul>
             <div className='menu-image-container' >
-                <img src='../../../image/ashima-pargal-o3KQX_VLhVY-unsplash.jpg' />
+                <img src='../../../image/karate.jpg' />
             </div>
             <AddmissionButton text="Addmission" background="white" color="black" width="230px"/>
         </div>

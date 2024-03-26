@@ -23,6 +23,7 @@
   align-items: center;
   gap: 1rem;
   padding: 0.5rem;
+  z-index: 1000;
 }
 .nav-container .logo {
   display: flex;
