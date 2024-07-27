@@ -1,0 +1,120 @@
+.upload-img-container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1rem;
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    backdrop-filter: blur(20px);
+    z-index: 1000;
+}
+
+.upload-img-form {
+    width: 40%;
+    height: auto;
+    padding: 2rem 4rem;
+    border-radius: 15px;
+    background: black;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.upload-title {
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.file-input {
+    width: 100%;
+    height: 250px;
+    border: 1px solid white;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.file-input input{
+    color: transparent;
+}
+.file-input input::-webkit-file-upload-button{
+    visibility: hidden;
+}
+.file-input input::before {
+    content: 'click / drag & drop Image';
+    font-weight: 600;
+    color: grey;
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+.cancel-img-btn{
+    width: 100%;
+    height: 56px;
+    border-radius: 15px;
+    background: rgb(74, 74, 74);
+    border: none;
+    text-transform: capitalize;
+    color: rgb(232, 232, 232);
+    font-size: 18px;
+    font-weight: 600;
+    transition: .4s all;
+}
+.add-img-btn{
+    width: 100%;
+    height: 56px;
+    border-radius: 15px;
+    border: 2px solid rgb(255, 255, 255);
+    background: white;
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+    transition: .4s all;
+}
+.add-img-btn:hover{
+    background: transparent;
+    color: white;
+}
+.progress-bar{
+    width: 100%;
+    height: 10px;
+    border-radius: 20px;
+    background: rgb(35, 35, 35);
+    overflow: hidden;
+}
+.progress-bar .bar{
+    height: 100%;
+    background-color: white;
+    border-radius: 20px;
+}
+.file-name{
+    font-size: 18px;
+    color: grey;
+}
+.file-name span{
+    color: white;
+}
+.upload-btn-container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.close-form{
+    width: 200px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 23px;
+    color: white;
+    background: black;
+    border-radius: 15px;
+}

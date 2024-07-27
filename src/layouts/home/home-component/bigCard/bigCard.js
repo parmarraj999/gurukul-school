@@ -1,6 +1,7 @@
 import React from 'react'
 import "./bigcard.css"
 import AddmissionButton from '../../../../components/button/button'
+import { motion } from 'framer-motion'
 
 function BigCard() {
   return (
@@ -14,9 +15,14 @@ function BigCard() {
           <img src='../../../image/library.jpg' />
         </div>
       </div>
-      <div className='btn-position'>
-        <AddmissionButton text="Contact Now" background="black" color="white" width="200px" />
-      </div>
+      <motion.div drag  dragConstraints={{
+      top: -200,
+      left: -150,
+      right: 10,
+      bottom: 150,
+    }} className='btn-position'>
+        <AddmissionButton text="Contact Now" background="black" color="white" width="210px" />
+      </motion.div>
     </div>
   )
 }

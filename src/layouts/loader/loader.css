@@ -1,0 +1,59 @@
+.loader-container{
+    width: 100%;
+    height: 100vh;
+    background: black;
+    z-index: 1000;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    transition: 1s all;
+    overflow: hidden;
+    flex-direction: column;
+    gap: 3rem;
+}
+.height80{
+    width: 100%;
+    height: 100vh;
+    background: black;
+    z-index: 1000;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    transition: 2s all;
+    overflow: hidden;
+    height: 0vh;
+    gap: 3rem;
+}
+
+.loader-text{
+    font-size: 1.5vw;
+    color: white;
+}
+@media screen and (max-width:765px) {
+    .loader-text{
+        font-size: 28px;
+    }
+}
+
+.progress-bar{
+    width: 30%;
+    height: 10px;
+    border-radius: 40px;
+    background: grey;
+    overflow: hidden;
+}
+.progress-bar .loader{
+    width: 30%;
+    height: 100%;
+    background: #ffffff;
+    border-radius: 40px;
+}

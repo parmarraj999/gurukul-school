@@ -20,14 +20,14 @@
     flex-direction: column;
     align-items: center;
     gap: 1rem;
-    padding: .5rem;
-    z-index: 1000;
+    padding: .2rem 1rem;
+    z-index: 100;
     .logo{
         display: flex;
         align-items: center;
         justify-content: center;
         img{
-            width: 70px;
+            width: 60px;
         }
     }
     .menu{

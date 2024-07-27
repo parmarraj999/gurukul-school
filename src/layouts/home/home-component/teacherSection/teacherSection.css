@@ -1,0 +1,173 @@
+.teacher-section-container{
+    width: 100%;
+    height: 85vh;
+    background: black;
+    padding: 1rem 1.2rem;
+    display: flex;
+    flex-direction: column;
+}
+.teacher-header-section{
+    width: 90%;
+    margin: 0 auto;
+}
+.teacher-header-section h1{
+    font-size: 5vw;
+    color: black;
+    -webkit-text-stroke-width: 2px ;
+    -webkit-text-stroke-color: white;
+    font-family: sans-serif;
+}
+.teacher-header-section h2{
+    font-size: 5vw;
+    color: white;
+}
+.teacher-image-container{
+    width: 100%;
+    height: 100%;
+    overflow: scroll;
+    position: relative;
+}.teacher-image-container::-webkit-scrollbar{
+    display: none;
+}
+.image-1{
+    width: 350px;
+    height: 250px;
+    border-radius: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.image-2{
+    width: 150px;
+    border-radius: 15px;
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    transform: translate(-50%,-50%);
+    -webkit-filter: grayscale(100%); 
+  filter: grayscale(100%);
+  transition: .4s all;
+}
+.image-2:hover{
+    -webkit-filter: grayscale(0%); 
+  filter: grayscale(0%);
+}
+.image-3{
+    width: 230px;
+    border-radius: 15px;
+    position: absolute;
+    top: 80%;
+    left: 20%;
+    transform: translate(-50%,-50%);
+    -webkit-filter: grayscale(100%); 
+  filter: grayscale(100%);
+  transition: .4s all;
+}
+.image-3:hover{
+    -webkit-filter: grayscale(0%); 
+  filter: grayscale(0%);
+}
+.image-4{
+    width: 230px;
+    border-radius: 15px;
+    position: absolute;
+    top: 65%;
+    left: 75%;
+    transform: translate(-50%,-50%);
+    -webkit-filter: grayscale(100%); 
+  filter: grayscale(100%);
+  transition: .4s all;
+}
+.image-4:hover{
+    -webkit-filter: grayscale(0%); 
+  filter: grayscale(0%);
+}
+.image-5{
+    width: 230px;
+    border-radius: 15px;
+    position: absolute;
+    top: 25%;
+    left: 90%;
+    transform: translate(-50%,-50%);
+    -webkit-filter: grayscale(100%); 
+  filter: grayscale(100%);
+  transition: .4s all;
+}
+.image-5:hover{
+    -webkit-filter: grayscale(0%); 
+  filter: grayscale(0%);
+}
+.image-6{
+    width: 170px;
+    border-radius: 15px;
+    position: absolute;
+    top: 35%;
+    left: 10%;
+    transform: translate(-50%,-50%);
+    -webkit-filter: grayscale(100%); 
+  filter: grayscale(100%);
+  transition: .4s all;
+}
+.image-6:hover{
+    -webkit-filter: grayscale(0%); 
+  filter: grayscale(0%);
+}
+.image-7{
+    width: 170px;
+    border-radius: 15px;
+    position: absolute;
+    top: 45%;
+    left: 150%;
+    transform: translate(-50%,-50%);
+    -webkit-filter: grayscale(100%); 
+  filter: grayscale(100%);
+  transition: .4s all;
+}
+.image-7:hover{
+    -webkit-filter: grayscale(0%); 
+  filter: grayscale(0%);
+}
+.image-8{
+    width: 170px;
+    border-radius: 15px;
+    position: absolute;
+    top: 75%;
+    left: 135%;
+    transform: translate(-50%,-50%);
+    -webkit-filter: grayscale(100%); 
+  filter: grayscale(100%);
+  transition: .4s all;
+}
+.image-8:hover{
+    -webkit-filter: grayscale(0%); 
+  filter: grayscale(0%);
+}
+@media screen and (max-width:765px) {
+    .teacher-header-section h1{
+        font-size: 50px;
+    }
+    .teacher-header-section h2{
+        font-size: 50px;
+    }
+    .image-1{
+        width: 70%;
+        height: auto;
+    }
+    .image-2{
+        width: 40%;
+        height: auto;
+        top: 20%;
+    }
+    .image-3{
+        width: 45%;
+        top: 75%;
+    }
+    .image-4{
+        width: 55%;
+        top: 80%;
+    }
+    .image-6{
+        display: none;
+    }
+}
